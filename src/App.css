@@ -535,7 +535,7 @@ input{
 .person1{
   border: 2px solid transparent;
   height: 320px;
-  background: url("./components/About/ProImages/ASHIKS.jpeg");
+  background: url("./component/About/ProImages/ASHIKS.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 240px;
@@ -544,7 +544,7 @@ input{
 .person2{
   border: 2px solid transparent;
   height: 320px;
-  background: url("./components/About/ProImages/PRAGATI.jpeg");
+  background: url("./component/About/ProImages/PRAGATI.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 240px;

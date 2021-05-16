@@ -1,0 +1,97 @@
+[
+    {
+        "category":"Bootstrap",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"Which of the following bootstrap styles are used to add a dropdown to a tab?",
+        "correct_answer":"\nnav, .nav-tabs, dropdown-.menu",
+        "incorrect_answers":[
+        "nav, .nav-tabs, .menu","nav, .nav-pills, .dropdown","nav, .nav-pills"
+        ]
+    },
+    {
+      "category": "Bootstrap",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following class applies the hover color to a particular row or cell of a table?",
+      "correct_answer": "active",
+      "incorrect_answers": [
+        "success",
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "category": "Bootstrap",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of the following bootstrap style of button indicates caution should be taken with this action?",
+      "correct_answer": "btn-warning",
+      "incorrect_answers": ["btn-danger", "btn-link", "btn-info"]
+    },
+    {
+      "category": "Bootstrap",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following bootstrap styles are used to create a vertical pills navigation?",
+      "correct_answer": ".nav, .nav-pills, .nav-stacked",
+      "incorrect_answers": [
+        ".nav, .nav-tabs",
+        ".nav, .nav-pills",
+        ".nav, .nav-tabs, .nav-justified"
+      ]
+    },
+    {
+      "category": "Bootstrap",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which class indicates a dropdown menu?",
+      "correct_answer": ".dropdown",
+      "incorrect_answers": [".dropdown-list", ".select", "null"]
+    },
+    {
+      "category": "Bootstrap",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "A standard navigation tab is created with:",
+      "correct_answer": "<ul class=”nav tabs”>",
+      "incorrect_answers": ["<ul class=”navigation-tabs”>", "<ul class=”navnav-tabs”>", "<ul class=”navnav-navbar”>"]
+    },
+    {
+      "category": "Bootstrap",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": " Which class is used to create a black navigation bar?",
+      "correct_answer": ".navbar-inverse",
+      "incorrect_answers": [".navbar-dark", ".navbar-black", ".navbar-default"]
+    },
+    {
+      "category": "Bootstrap",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Which plugin is used to create a tooltip?",
+      "correct_answer": "tooltip",
+      "incorrect_answers": [" modal"," dialog Box"," popup"]
+    },
+    {
+      "category": "Bootstrap",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Default size of H5 bootstrap heading",
+      "correct_answer": "14px",
+      "incorrect_answers": [
+        "16px",
+        "18px",
+        "20px"
+      ]
+    },
+    {
+      "category": "Bootstrap",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which class creates pagination?",
+      "correct_answer": "pagination",
+      "incorrect_answers": ["pager","pagination-link"," link-pagination"]
+    }
+  ]
+  

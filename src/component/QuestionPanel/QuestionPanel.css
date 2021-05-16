@@ -1,0 +1,26 @@
+
+.message{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important;
+    background: '00C78C';
+}
+.next-button{
+    display: flex !important;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+    background: transparent ;
+}
+
+.next-button:hover{
+    background: black !important;
+}
+.score-wrapper{
+    display: flex;
+    width: 800px;
+    margin-left: 234px;
+    color: white;
+    font-weight: 600;
+    justify-content: space-between;
+    background: '#00C78C';
+}

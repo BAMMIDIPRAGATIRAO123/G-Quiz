@@ -1,0 +1,93 @@
+[
+    {
+        "category":"CSS",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":" Which of the following selector matches the name of any element type?",
+        "correct_answer":" The Universal Selector",
+        "incorrect_answers":[ 
+        " The Type Selector"," The Descendant Selector"," The Class Selector"
+        ]
+    },
+    {
+      "category": "CSS",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In CSS what does 'color:red;' can be called as?",
+      "correct_answer": "Declaration",
+      "incorrect_answers": ["Ruler", "Selector", "Design"]
+    },
+    {
+      "category": "CSS",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What CSS stands for?",
+      "correct_answer": "Cascading Style Sheets",
+      "incorrect_answers": [
+        "Color Style Sheets",
+        "Cascade Sheets Style",
+        "Cascade Style Sheet"
+      ]
+    },
+    {
+      "category": "CSS",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following selector selects all elements of E that have the attribute attr that end with the given value?",
+      "correct_answer": "E[attr$=value]",
+      "incorrect_answers": ["E[attr^=value]", "E[attr*=value]", " none of the mentioned"]
+    },
+    {
+      "category": "CSS",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following selector selects the elements that are checked?",
+      "correct_answer": ":checked",
+      "incorrect_answers": ["E ~ F", "::after", "none of the mentioned"]
+    },
+    {
+      "category": "CSS",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following selector selects an element that has no children?",
+      "correct_answer": ":empty",
+      "incorrect_answers": [":nochild", ":inheritance", ":no-child"]
+    },
+    {
+      "category": "CSS",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Which of the following selector selects the element that is the first child of its parent that is of its type?",
+      "correct_answer": ":first-of-type",
+      "incorrect_answers": [":last-child","::first-line","::first-letter"]
+    },
+    {
+      "category": "CSS",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following selector selects elements that do not match the selector s?",
+      "correct_answer": ":not(s)",
+      "incorrect_answers": [
+        ":!(s)",
+        ":nth-child(s)",
+        " none of the mentioned"
+      ]
+    },
+    {
+      "category": "CSS",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "All object have prototypes.\n\n ",
+      "correct_answer": "false",
+      "incorrect_answers": ["true"]
+    },
+    {
+      "category": "CSS",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Which of the following selector selects the element that is the first child of its parent that is of its type?",
+      "correct_answer": ":first-of-type",
+      "incorrect_answers": [":last-child","::first-line","::first-letter"]
+    }
+  ]
+  

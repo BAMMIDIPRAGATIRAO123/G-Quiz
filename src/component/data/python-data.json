@@ -1,0 +1,95 @@
+[
+    {
+        "category":"Python 3",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"Choose the correct syntax for reading from a text file stored in {c:/scores.txt} ? \n\n",
+        "correct_answer":"Infile = open(\n 'c:\\scores.txt', 'r')",
+        "incorrect_answers":["Infile = open(\n 'c:/scores.txt','r')","Infile = open(file=\n 'c:///scores.txt', 'r')","Infile = open.file(\n'c:\\scores.txt','r')"
+        ]
+    },
+    {
+        "category":"Python 3",
+        "type":"multiple",
+        "difficulty ":"easy",
+        "question":"What is the output of the code? \n\ndef f(): global z  print('z is: ', z) z=50  print('newvalue of global z is: ', z)  f()  print('Value of z is: ', z);",
+        "correct_answer":"- z is 100  new value of global z is: 50  value of z is 50",
+        "incorrect_answers":[
+        " - z is 100  new value of global z is: 100  value of z is 100"," - z is 100  new value of global z is: 100  value of z is 50", " - z is 100  new value of global z is: 50  value of z is 100"
+        ]
+    },
+    {
+        "category":"Python 3",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question": "Analyze the code ? \n\n print(''Recursive Function'')  def factorial(n):   return(n*factorial(n-1))  factorial(4)  Recursive Function 24",
+        "correct_answer":"Function run infinitely ans causes a stack Overflow Error",
+        "incorrect_answers":[
+        "Recursive Function 24","Recursive Function","Syntax Error"
+        ]
+    },
+    {
+        "category": "Python 3",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who developed the Python language?",
+        "correct_answer": "Guido van Rossum",
+        "incorrect_answers": [
+          "Niene Stom",
+          "Wick van Rossum",
+          "Zim Den"
+        ]
+      },
+      {
+        "category": "Python 3",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In which language is Python written?",
+        "correct_answer": "C",
+        "incorrect_answers": ["ENGLSH", "PHP", "All of them"]
+      },
+      {
+        "category": "Python 3",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What do we use to define a block of code in Python language?",
+        "correct_answer": "Indentation",
+        "incorrect_answers": ["Key", "Brackets", "NONE"]
+      },
+      {
+        "category": "Python 3",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the method inside the class in python language?",
+        "correct_answer": "Function",
+        "incorrect_answers": ["Attribute", "Object", "Argument"]
+      },
+      {
+        "category": "Python 3",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Which one of the following has the highest precedence in the expression?",
+        "correct_answer": "Parentheses",
+        "incorrect_answers": ["Power","Subtraction","Division"]
+      },
+      {
+        "category": "Python 3",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following is not a keyword in Python language?",
+        "correct_answer": "val",
+        "incorrect_answers": [
+          "TRY",
+          "def",
+          "if"
+        ]
+      },
+      {
+        "category": "Python 3",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following operators is the correct option for power(ab)? ",
+        "correct_answer": "a**b",
+        "incorrect_answers": ["a ^ ^ b","a ^ * b","a ^ b"]
+      }
+    ]

@@ -1,0 +1,101 @@
+[
+    {
+        "category":"React Js",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"Which of the following is the correct data flow sequence of flux concept?",
+        "correct_answer":"Dispatcher->Action->Store->View",
+        "incorrect_answers":[
+        "Action->Dispatcher->View->Store","Action->Dispatcher->Store->View","Action->Store->Dispatcher->View"
+        ]
+    },
+    {
+        "category":"React Js",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"Which of the following is the correct data flow sequence of flux concept?",
+        "correct_answer":"Action->Dispatcher->store->view",
+        "incorrect_answers":[
+        "Dispatcher->Action->Store->View","Action->Dispatcher->View->Store","Action->Store->Dispatcher->View"
+        ]
+    },
+    {
+        "category":"React Js",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question" :"props in react can ?",
+        "correct_answer":"Not be changed in the component",
+        "incorrect_answers":[
+        "Be changed inside the component","Be changed in side other component","None of above"
+        ]
+    },
+    {
+        "category":"React Js",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"Which command is used Install create-react-app?",
+        "correct_answer":"npm install -g create-react-app",
+        "incorrect_answers":[
+        "npm install create-react-app","npm install -f create-react-app","install -g create-react-app"
+        ]
+    },
+    {
+        "category":"React Js",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"Which of the following is true about React?",
+        "correct_answer":"/nAll of the above",
+        "incorrect_answers":[
+        "React is a JavaScript library for building user interfaces","React is used to build single page application","React allows us to create reusable UI components"
+        ]
+    },
+    {
+        "category":"React Js",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"JSX allows us to write HTML elements in JavaScript and place them in the DOM without any?",
+        "correct_answer":"Both A and B",
+        "incorrect_answers":[
+        "createElement"," appendChild","getElementById"
+        ]
+    },
+    {
+        "category":"React Js",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"Which of the following API is a MUST for every ReactJS component?",
+        "correct_answer":"renderComponent",
+        "incorrect_answers":[
+        "get InitialState ","render", "None"
+        ]
+    },
+    {
+      "category": "React Js",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "What is the output? \n\n class Chameleon {\n  static colorChange(newColor) {\n    this.newColor = newColor;\n    return this.newColor;\n  }\n\n  constructor({ newColor = 'green' } = {}) {\n    this.newColor = newColor;\n  }\n}\n\nconst freddie = new Chameleon({ newColor: 'purple' });\n\nconsole.log(freddie.colorChange('orange'));",
+      "correct_answer": "typeError",
+      "incorrect_answers": ["orange","purple","green"]
+    },
+    {
+       "category":"sReact Js",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"What is ReactJS?",
+        "correct_answer":"A Library for building interaction interfaces",
+        "incorrect_answers":[
+        "Server side Framework","User-interface framework","None of These"
+        ]
+    },
+    {
+        "category":"React Js",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"JSX allows us to write HTML elements in JavaScript and place them in the DOM without any?",
+        "correct_answer":"Both A and B",
+        "incorrect_answers":[
+        "createElement"," appendChild","getElementById"
+        ]
+    }
+  ]
+  

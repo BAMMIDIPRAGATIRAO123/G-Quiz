@@ -1,0 +1,99 @@
+[
+    {
+      "category": "Javascript",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the output? \n\n function sayHi() { \n console.log(name);\n console.log(age);\n var name = 'Lydia';\n let age = 21;\n }\n sayHi();",
+      "correct_answer": "undefined and ReferenceError",
+      "incorrect_answers": [
+        "Lydia and undefined",
+        "Lydia and ReferenceError",
+        "ReferenceError and 21"
+      ]
+    },
+    {
+      "category": "Javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the output? \n\n for (var i = 0; i < 3; i++) {\n setTimeout(() => console.log(i), 1);\n }\n for (let i = 0; i < 3; i++) {\n setTimeout(() => console.log(i), 1);\n }",
+      "correct_answer": "3 3 3 and 0 1 2",
+      "incorrect_answers": [
+        "0 1 2 and 0 1 2",
+        "0 1 2 and 3 3 3",
+        "null"
+      ]
+    },
+    {
+      "category": "Javascript",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the output? \n\n const shape = { \n radius: 10,\n diameter() {\n   return this.radius * 2;\n },\n perimeter: () => 2 * Math.PI * this.radius,\n }; \n console.log(shape.diameter()); \n console.log(shape.perimeter());",
+      "correct_answer": "20 and NaN",
+      "incorrect_answers": ["20 and 62.83185307179586", "20 and 63", "NaN and 63"]
+    },
+    {
+      "category": "Javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the output? \n\n +true;\n !'Lydia';",
+      "correct_answer": "1 and false",
+      "incorrect_answers": [
+        "false and NaN",
+        "false and false",
+        "null"
+      ]
+    },
+    {
+      "category": "Javascript",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which one is true? \n\n const bird = {\n  size: 'small',\n};\n\nconst mouse = {\n name: 'Mickey',\n  small: true,\n};",
+      "correct_answer": "mouse.bird.size is not valid",
+      "incorrect_answers": ["mouse[bird.size] is not valid", "mouse[bird['size']] is not valid", "All of them are valid"]
+    },
+    {
+      "category": "Javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the output? \n\n let c = { greeting: 'Hey!' };\nlet d;\n\nd = c;\nc.greeting = 'Hello';\nconsole.log(d.greeting);",
+      "correct_answer": "Hello",
+      "incorrect_answers": ["Hey!", "undefined", "TypeError"]
+    },
+    {
+      "category": "Javascript",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the output? \n\n let a = 3;\nlet b = new Number(3);\nlet c = 3;\n\nconsole.log(a == b);\nconsole.log(a === b);\nconsole.log(b === c);",
+      "correct_answer": "true false false",
+      "incorrect_answers": ["true false true", "false false true", "false true true"]
+    },
+    {
+      "category": "Javascript",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "What is the output? \n\n class Chameleon {\n  static colorChange(newColor) {\n    this.newColor = newColor;\n    return this.newColor;\n  }\n\n  constructor({ newColor = 'green' } = {}) {\n    this.newColor = newColor;\n  }\n}\n\nconst freddie = new Chameleon({ newColor: 'purple' });\n\nconsole.log(freddie.colorChange('orange'));",
+      "correct_answer": "TypeError",
+      "incorrect_answers": ["orange","purple","green"]
+    },
+    {
+      "category": "Javascript",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the output? \n\n let greeting;\n greetign = {}; // Typo!\n console.log(greetign);",
+      "correct_answer": "{}",
+      "incorrect_answers": [
+        "ReferenceError: greetign is not defined",
+        "undefined",
+        "null"
+      ]
+    },
+    {
+      "category": "Javascript",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "All object have prototypes.\n\n ",
+      "correct_answer": "false",
+      "incorrect_answers": ["true"]
+    }
+  ]
+  
