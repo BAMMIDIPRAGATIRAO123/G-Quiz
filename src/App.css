@@ -1,8 +1,6 @@
 .App {
   text-align: center;
-  /* background: black; */
   border: 2px solid transparent;
-  /* height: 900vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -176,8 +174,8 @@
 }
 
 .program{
-  border:2px solid black;
-  background: url("./developers.jpeg");
+  border:2px solid transparent;
+  background: url("developers.jpeg");
   background-repeat: no-repeat;
   height: 280px;
   width: 360px;
@@ -192,8 +190,6 @@
 
 .cardHolder{
   border: 2px solid transparent;
-  /* background-image: linear-gradient(to bottom right, black, #7f00ff); */
-  /* background-image: linear-gradient(to bottom right, #ff4040, white); */
   background-image: linear-gradient(to right,#1E90FF,#0000FF,#1E90FF,#afeeee );
   height: 680px;
   margin-left: -380px;
@@ -202,8 +198,6 @@
 
 .cardHolder2{
   border: 2px solid transparent;
-  /* background-image: linear-gradient(to bottom right, black, #7f00ff); */
-  /* background-image: linear-gradient(to right ,#30D5C8,#afeeee,white); */
   background-image: linear-gradient(to right,#1E90FF,#0000FF,#1E90FF,#afeeee );
   height: 700px;
   margin-left: -380px;
@@ -344,7 +338,7 @@ input{
   width: 600px;
   margin-bottom: 26px;
   border: 2px solid transparent;
-  margin-top: 16px;
+  margin-top: 60px;
   background-color: white;
   border-radius: 10px;
   margin-left: 350px;
@@ -385,9 +379,18 @@ input{
   align-content: center;
   margin-left: -380px;
   height: 860px;
-  width: 1306px;
+  width: 1304px;
   background-image: linear-gradient(to right,#1E90FF,#0000FF,#1E90FF,#afeeee );
   border: 2px solid transparent;
+}
+
+.belowf{
+  align-content: center;
+  margin-left: -380px;
+  height: 1360px;
+  border: 2px solid transparent;
+  width: 1304px;
+  background-image: linear-gradient(to right,#1E90FF,#0000FF,#1E90FF,#afeeee );
 }
 
 .enterTopic{
@@ -452,7 +455,6 @@ input{
 }
 
 .thisPdf:hover{
-  /* background-image: linear-gradient(to bottom right, black, #7f00ff); */
   background-image: linear-gradient(to right,#1E90FF,#0000FF,#1E90FF,#afeeee );
   color: white;
   border: 2px solid transparent;
@@ -463,7 +465,6 @@ input{
   margin-left: -378px;
   height: 1200px;
   width: 1302px;
-  /* background-image: linear-gradient(to bottom right, black, #7f00ff); */
   background-image: linear-gradient(to right,#1E90FF,#0000FF,#1E90FF,#afeeee );
   border: 2px solid transparent;
 }
@@ -492,7 +493,6 @@ input{
 
 .quiz:hover{
   color: white;
-  /* background-image: linear-gradient(to bottom right, black, #7f00ff); */
   background-image: linear-gradient(to right,#1E90FF,#0000FF,#1E90FF,#afeeee );
   border: 2px solid transparent;
 }
@@ -504,7 +504,6 @@ input{
   padding-right: 5%;
   height: 800px;
   width: 1248px;
-  /* background-image: linear-gradient(to bottom right, black, #7f00ff); */
   background-image: linear-gradient(to right,#1E90FF,#0000FF,#1E90FF,#afeeee );
   border: 2px solid transparent;
 }
@@ -533,6 +532,114 @@ input{
   background: #D22B2B;
 }
 
+.person1{
+  border: 2px solid transparent;
+  height: 320px;
+  background: url("./components/About/ProImages/ASHIKS.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 240px;
+  float: left;
+}
+.person2{
+  border: 2px solid transparent;
+  height: 320px;
+  background: url("./components/About/ProImages/PRAGATI.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 240px;
+  float: left;
+}
+
+.desc1{
+  border: 2px dashed #0000FF;
+  height: 220px;
+  width: 240px;
+  margin-top: -280px;
+  border-left: 4px double #0000FF;
+  font-weight: 400;
+  margin-left: 80px;
+  margin-bottom: 5%;
+  float: right;
+  padding: 2% 2% 2% 2%;
+  text-align: center;
+}
+.desc2{
+  border: 2px dashed #0000FF;
+  height: 220px;
+  width: 240px;
+  margin-top: -280px;
+  font-weight: 400;
+  border-left: 4px double #0000FF;
+  margin-left: 200px;
+  margin-bottom: 5%;
+  float: right;
+  padding: 2% 2% 2% 2%;
+  text-align: center;
+}
+
+.contacts{
+  border: 4px solid #0000FF;
+  margin-top: 0.5%;
+  height: 60px;
+  font-weight: 500;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 490px;
+}
+
+.bio{
+  border: 2px solid transparent;
+  height: 330px;
+  width: 520px;
+}
+
+.scroll{
+  border: 2px solid transparent;
+  height: 330px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 520px;
+}
+
+.below4{
+  align-content: center;
+  margin-left: -380px;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 900px;
+  width: 1249px;
+  background-image: linear-gradient(to right,#1E90FF,#0000FF,#1E90FF,#afeeee );
+  border: 2px solid transparent;
+}
+
+.tagHolder{
+  border: 2px solid transparent;
+  height: 160px;
+  width: 900px;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  text-align: center;
+  margin-top: 40px;
+  border-right: 4px double white;
+  border-bottom: 2px dashed white;
+  border-top: 2px solid white;
+  border-left: 4px double white;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-left: 120px;
+}
+
+.tagHolder:hover{
+  border-bottom: 2px solid white;
+  border-top: 2px dashed white;
+}
 
 .board{
   position: absolute;
@@ -551,3 +658,73 @@ input{
    background: darkblue;
 }
 
+table{
+  border: 2px solid transparent;
+  height: 340px;
+  background-image: linear-gradient( to bottom right,#0000FF,#1E90FF,#afeeee );
+  width: 520px;
+}
+th, td{
+  border: 2px solid transparent;
+  text-align: center;
+  height: 50px;
+  color: white;
+  width: 100px;
+}
+
+th{
+  background: #0000FF;
+  border-bottom-left-radius: 20px;
+  border-left-color: white;
+  border-bottom: white;
+  color: white;
+}
+
+.scroll2{
+  border: 2px solid transparent;
+  height: 380px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 520px;
+}
+
+.clickStyle{
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-left: 160px;
+  font-size: 30px;
+  padding: 2% 2% 2% 2%;
+  font-weight: 400;
+  position: absolute;
+  margin-top: -200px;
+}
+
+.clickStyle:hover{
+  background: #0000FF;
+}
+
+.commentImage{
+  background: url("./comments.jpg");
+  border: 2px solid transparent;
+  height: 180px;
+  margin-top: -300px;
+  margin-left: 250px;
+  width: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feedImage{
+  border: 2px solid transparent;
+  background: url("./feedback.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 340px;
+  width: 590px;
+  margin-left: -40px;
+  margin-top: 10%;
+}

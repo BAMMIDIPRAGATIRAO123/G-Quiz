@@ -13,6 +13,9 @@ import Header from "./components/Landing/Header";
 import {AuthProvider} from "../src/Auth";
 import Login from "./components/Landing/Login";
 import Signup from "./components/Landing/Signup";
+import About from "./components/About/About";
+import Feedback from './components/Feedback/Feedback';
+import comment from './components/Feedback/comment';
 
 const theme = createMuiTheme({
   palette: {
@@ -43,6 +46,9 @@ function App() {
                      <Route exact path="/Login" component={Login}></Route>
                      <Route exact path="/Signup" component={Signup}></Route>
                      <Route exact path="/Home" component={Home}></Route>
+                     <Route exact path="/About" component={About}></Route>
+                     <Route exact path="/Feedback" component={Feedback}></Route>
+                     <Route exact path="/comment" component={comment}></Route>
                   </Switch>
                </Box>
             </Container>

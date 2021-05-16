@@ -27,6 +27,16 @@ const Header = ()=> {
                                 <button className="btn-login" variant="outlined">Log In</button>
                             </Link>
                         </span>
+                        <span>
+                            <Link to={"/About"}>
+                                <button className="btn-login" variant="outlined">About Us</button>
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to={"/Feedback"}>
+                                <button className="btn-login" variant="outlined">Feedback</button>
+                            </Link>
+                        </span>
                     </div>
                 </div>
             </div>
