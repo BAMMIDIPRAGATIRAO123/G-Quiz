@@ -28,8 +28,8 @@ class CSSQuiz extends Component {
         }
      }
      checkUserAnswer = (userAns) =>{
-        const {current_question,current_question_no ,currectAnswered,wrongAnswered , total_question_no} = this.state;
-        if(decodeURIComponent(current_question['correct_answer'])==userAns){
+        const {current_question ,currectAnswered ,wrongAnswered } = this.state;
+        if(decodeURIComponent(current_question['correct_answer'])===userAns){
             this.setState({currectAnswered:currectAnswered+1});
 
             const _score =((currectAnswered +1)  * 10).toFixed();
@@ -70,6 +70,5 @@ class CSSQuiz extends Component {
           );
     }
 }
- 
-// export default withRouter(Quiz);
+
 export default CSSQuiz;

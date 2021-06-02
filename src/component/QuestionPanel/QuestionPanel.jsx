@@ -58,7 +58,7 @@ export default function QuestionPanel({question, nextQuestion, total, questionNo
   const handleAnswer = (ans) =>{
     setAnswered(ans);
     checkUserAnswer(ans);
-    if(decodeURIComponent(question['correct_answer'])==ans){
+    if(decodeURIComponent(question['correct_answer'])===ans){
       setMessage('Correct!')
     }
     else{
@@ -84,11 +84,10 @@ export default function QuestionPanel({question, nextQuestion, total, questionNo
       var uid = user.uid;
       var username = user.email;
       
-    firebase.firestore().collection("points").add({
-      username: username,
+    firebase.firestore().collection("point").add({
+      useremail: username,
       uid: uid,
       points: score,
-      type: "Web-App",
     })
     .then((doc)=>{
       console.log(doc);
@@ -191,7 +190,7 @@ export default function QuestionPanel({question, nextQuestion, total, questionNo
       <Typography variant="h5" component="h3" className="message">
           {answered && message}
       </Typography>
-        
+      
       {answered!=='' && progress !==100? 
         <Button variant="contained" 
           className="next-button" 
@@ -201,13 +200,7 @@ export default function QuestionPanel({question, nextQuestion, total, questionNo
       </Button>
 
       : null }
-        
-      {/* {
-        user.map(us => (
-          <p key={us.uid}>{us.username}</p>
-        ))
-      } */}
-
+       
       </Card>
 
       <div className="score-wrapper">
@@ -229,9 +222,7 @@ export default function QuestionPanel({question, nextQuestion, total, questionNo
     <Link to={"/board"}>
     <button className="clickStyle" onClick={scoreHandler}>Save your score</button>
     </Link>
-    
-
-        
+     
     </>
   );
 }

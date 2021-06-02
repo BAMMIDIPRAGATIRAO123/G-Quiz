@@ -331,7 +331,7 @@ input{
   background-color: white;
   border-radius: 10px;
   margin-left: 350px;
-  height: 500px;
+  height: 520px;
 }
 
 .start4{
@@ -660,7 +660,7 @@ input{
 
 table{
   border: 2px solid transparent;
-  height: 340px;
+  height: 360px;
   background-image: linear-gradient( to bottom right,#0000FF,#1E90FF,#afeeee );
   width: 520px;
 }
@@ -682,7 +682,7 @@ th{
 
 .scroll2{
   border: 2px solid transparent;
-  height: 380px;
+  height: 400px;
   overflow-y: auto;
   overflow-x: hidden;
   border-bottom-left-radius: 40px;
@@ -727,4 +727,15 @@ th{
   width: 590px;
   margin-left: -40px;
   margin-top: 10%;
+}
+
+.landing{
+  border: 2px solid transparent;
+  height: 600px;
+  width: 1100px;
+  margin-left: 100px;
+  margin-bottom: 60px;
+  background: url("./landing.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

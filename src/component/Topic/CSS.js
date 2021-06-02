@@ -1,4 +1,4 @@
-import { Route, Link, useHistory } from "react-router-dom";
+import {Link} from "react-router-dom";
 import React from 'react';
 import pdf from "../PDF/CSSNotes.pdf";
 import Video from '../Videos/CSSVIDEO.mp4';

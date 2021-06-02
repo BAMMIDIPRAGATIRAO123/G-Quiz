@@ -1,4 +1,4 @@
-import { Route, Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import React from 'react';
 import BootstrapQuiz from "../Quiz/BootstrapQuiz";
 import pdf from "../PDF/BootstrapNotes.pdf";
